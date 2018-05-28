@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	
+	<html>
+	
+	<head>
+	
+	<title>QUIZ WEB APP</title>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+	
+</head>
+	<body>
+	
+	<div id = "quizContainer" class = "container">
+	
+	<div class = "titleContainer">ANDELA TEST QUIZ
+	
+	</div>
+	
+	<div id="question" class="questions">
+	
+	</div>
+<label class="optionToChoose"><input type= "radio" class="rad" name = "option" value = "1" /><span id="option1"></span></label>
+<label class="optionToChoose"><input type= "radio" class="rad"  name = "option" value = "2" /><span id="option2"></span></label>
+<label class="optionToChoose"><input type= "radio" class="rad" name = "option" value = "3" /><span id="option3"></span></label>
+<label class= "optionToChoose"><input type= "radio" class="rad"  name = "option" value = "4" /><span id="option4"></span></label>
+<button id="nextButton" class= "nextButtons" onclick="loadNextQuestion();"> Next question</button>
+</div>
+
+<div id= "result" class="resultContainer" style= "display:none;">
+</div>
+
+</body>
+</html>
+
+
